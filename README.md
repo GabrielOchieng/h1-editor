@@ -1,7 +1,5 @@
 <h1>H1 Creator - A Simple Web App for Creating Headings</h1>
-This is a README file for the H1 Creator, a simple web application that allows users to create and store H1 headings.
-
-<h3>   </h3>
+This is a README file for the H1 Creator, a simple web application that allows users to create and store H1 headings within the local storage thus they will persist on page reload.
 
 <h2>Features: </h2>
 
@@ -19,10 +17,10 @@ All created headings are stored in the browser's local storage for persistence.
 
 <h3>Files:</h2>
 
-index.html: The main HTML file containing the page structure and references to JavaScript and CSS files.
-script.js: The JavaScript file containing all the application logic.
-script.test.js: The test file containing all the test functions written using jest.
-index.css: The CSS file containing styles for the application.
+index.html: The main HTML file containing the page structure and references to JavaScript and CSS files. <br />
+script.js: The JavaScript file containing all the application logic. <br />
+script.test.js: The test file containing all the test functions written using jest. <br />
+index.css: The CSS file containing styles for the application. <br />
 
 <h2>How to Use:</h2>
 

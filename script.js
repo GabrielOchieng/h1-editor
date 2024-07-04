@@ -7,7 +7,8 @@ const getStoredHeadings = () => {
   if (storedData) {
     return JSON.parse(storedData);
   } else {
-    return []; // Return empty array if no data is stored
+    // Return empty array if no data is stored
+    return [];
   }
 };
 

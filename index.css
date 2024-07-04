@@ -5,6 +5,11 @@
   font-family: Arial, sans-serif;
 }
 
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .title {
   font-size: 40px;
   padding: 20px;
@@ -40,7 +45,16 @@
 }
 
 /* Using media queries to adjust styles for different screen sizes to ensure responsiveness */
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
 @media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
   .title {
     font-size: 32px;
     padding: 10px;

@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: underline;
+}
+
+#creator {
+  /* border: 1px solid grey; */
+  padding: 10px;
+  font-size: 20px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#creator:empty::before {
+  content: attr(data-placeholder);
+}
+
+#creator:focus {
+  outline: none;
+}
+
+#my-headings {
+  font-size: 24px;
+  font-weight: bold;
+  width: 95%;
+  margin: 5px auto;
+}
+
+#my-headings:focus {
+  outline: none;
+}

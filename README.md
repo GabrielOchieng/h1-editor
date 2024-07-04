@@ -17,10 +17,10 @@ All created headings are stored in the browser's local storage for persistence.
 
 <h3>Files:</h2>
 
-index.html: The main HTML file containing the page structure and references to JavaScript and CSS files. <br />
-script.js: The JavaScript file containing all the application logic. <br />
-script.test.js: The test file containing all the test functions written using jest. <br />
-index.css: The CSS file containing styles for the application. <br />
+<a href="https://github.com/GabrielOchieng/h1-editor">index.html:</a> The main HTML file containing the page structure and references to JavaScript and CSS files. <br />
+<a href="https://github.com/GabrielOchieng/h1-editor">script.js:</a> The JavaScript file containing all the application logic. <br />
+<a href="https://github.com/GabrielOchieng/h1-editor">script.test.js:</a> The test file containing all the test functions written using jest. <br />
+<a href="https://github.com/GabrielOchieng/h1-editor">index.css:</a> The CSS file containing styles for the application. <br />
 
 <h2>How to Use:</h2>
 

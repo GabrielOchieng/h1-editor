@@ -7,17 +7,18 @@
 
 .title {
   font-size: 40px;
-  text-align: center;
-  padding: 20px 0;
-  text-decoration: underline;
+  padding: 20px;
+}
+
+.instruction {
+  font-size: 20px;
+  padding: 20px;
+  color: gray;
 }
 
 #creator {
-  /* border: 1px solid grey; */
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
-  width: 95%;
-  margin: 0 auto;
 }
 
 #creator:empty::before {
@@ -31,10 +32,32 @@
 #my-headings {
   font-size: 24px;
   font-weight: bold;
-  width: 95%;
-  margin: 5px auto;
+  padding: 20px;
 }
 
 #my-headings:focus {
   outline: none;
+}
+
+/* Using media queries to adjust styles for different screen sizes to ensure responsiveness */
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  .instruction {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  #creator {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  #my-headings {
+    font-size: 20px;
+    padding: 10px;
+  }
 }
